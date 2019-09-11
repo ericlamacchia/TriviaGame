@@ -8,8 +8,34 @@ let lost = 0;
 // need to create one for keeping track of the time
 let timer;
 
+function nextQuestion() {
+    currentQuestion++;
+
+    loadQuestion();
+    
+}
+
+// Start a timer to keep track of the game doing 30 seconds
+function timeUp() {
+    clearInterval(timer);
+    lost++;
+    nextQuestion();
+    
+}
+function countDown() {
+    counter--;
+    $('#time').html('Timer: ' + counter);
+
+    if (counter === 0) {
+        timeUp();
+    }
+    
+}
+
 // I need to be able to display my questions as well as my answers
 function loadQuestion() {
+    counter = 30;
+    timer = setInterval(countDown, 1000);
     const question = quizQuestions[currentQuestion].question;
     const choices = quizQuestions[currentQuestion].choices;
 // Here I will be creating my timer
