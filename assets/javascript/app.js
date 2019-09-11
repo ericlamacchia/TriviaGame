@@ -16,8 +16,19 @@ function loadQuestion() {
 $('#time').html('Timer: ' +counter);
     $('#game').html(`
     <h3>${question}</h3>
+    ${loadChoices(choices)}
     `);
 
+}
+function loadChoices(choices) {
+    let result = '';
+
+    for (let i = 0; i < choices.length; i++) {
+        result += `<p class="choice" data-answer="${choices[i]}">${choices[i]}</p>`;
+        
+    }
+    return result;
+    
 }
 //This is where I need to load my questions
 loadQuestion();
