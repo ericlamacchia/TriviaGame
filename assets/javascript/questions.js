@@ -56,6 +56,38 @@ const quizQuestions = [{
 
     },
     {
+        question: 'Who was snubbed from playing on Michaels basketball team?',
+        choices: ["Stanley", "Kevin", "Angela", "Pam"],
+        rightAnswer: "Kevin"
+
+
+
+    },
+    {
+        question: 'Where do Michael and Jan spend a Christmas vacation together?',
+        choices: ["Jamaica", "Mexico", "Italy", "Home"],
+        rightAnswer: "Jamaica"
+
+
+
+    },
+    {
+        question: 'What does Michael burn his foot on?',
+        choices: ["Stove", "The sun", "George Foreman grill", "Printer"],
+        rightAnswer: "George Foreman grill"
+
+
+
+    },
+    {
+        question: 'Who pooped on Michaels carpet?',
+        choices: ["It was a group effort", "Roy", " Todd Packer", "Pam"],
+        rightAnswer: "Todd Packer"
+
+
+
+    },
+    {
         question: 'Which office employee did Michael hit with his car?',
         choices: ["Meredith", "Himself", "Jim", "IT guy"],
         rightAnswer: "Meredith"
