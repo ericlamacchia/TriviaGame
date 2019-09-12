@@ -1,3 +1,4 @@
+// this will be the array of my questions
 const quizQuestions = [{
         question: 'What type of farm does Dwight own?',
         choices: ["Bear Farm", "Beat Farm", "Apple Farm", "Banana Farm"],
@@ -57,9 +58,29 @@ const quizQuestions = [{
     {
         question: 'Which office employee did michael hit with his car?',
         choices: ["Meredith", "Himself", "Jim", "IT guy"],
-        rightAnswer: "Beat Farm"
+        rightAnswer: "Meredith"
 
 
 
-    },
-]
+    }
+];
+// This is where i need to create the array for my giphys
+//this one will be for correct answers
+const funImages = [
+    './assets/images/dancingwin.gif',
+    './assets/images/itstruewin.gif',
+    './assets/images/naileditwin.gif',
+    './assets/images/highfivewin.gif',
+    './assets/images/poppinbottleswin.gif',
+    './assets/images/raisetheroofwin.gif',
+];
+// this one is for incorrect answers
+const sadImages = [
+    './assets/images/dontlikelost.gif',
+    './assets/images/boomloser.gif',
+    './assets/images/worstlost.gif',
+    './assets/images/frustratedlost.gif',
+    './assets/images/loserlost.gif',
+    './assets/images/notspeciallost.gif',
+
+];

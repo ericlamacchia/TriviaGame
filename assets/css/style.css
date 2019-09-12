@@ -1,4 +1,17 @@
+body {
+    background-image: url(https://www.whats-on-netflix.com/wp-content/uploads/2019/02/the-office-not-leaving-netflix-until-2021.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.container {
+    background-color: beige;
+    text-align: center;
+}
 
+
+.jumbotron {
+    text-align: center;
+}
 
 .choice {
     border: 1px solid grey;
