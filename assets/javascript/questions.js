@@ -81,7 +81,7 @@ const quizQuestions = [{
     },
     {
         question: 'Who pooped on Michaels carpet?',
-        choices: ["It was a group effort", "Roy", " Todd Packer", "Pam"],
+        choices: ["It was a group effort", "Roy", "Todd Packer", "Pam"],
         rightAnswer: "Todd Packer"
 
 
