@@ -1,8 +1,8 @@
 // this will be the array of my questions
 const quizQuestions = [{
         question: 'What type of farm does Dwight own?',
-        choices: ["Bear Farm", "Beat Farm", "Apple Farm", "Banana Farm"],
-        rightAnswer: "Beat Farm"
+        choices: ["Bear Farm", "Beet Farm", "Apple Farm", "Banana Farm"],
+        rightAnswer: "Beet Farm"
 
 
 
