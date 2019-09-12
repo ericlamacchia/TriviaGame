@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://www.biography.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTI4OTk1MTI0NTQwNjQyNTc4/the-office_keyart_70jpg.jpg);
+    background-image: url(https://mk0flexlastcallpechg.kinstacdn.com/wp-content/uploads/2019/03/theoffice2.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,6 +15,7 @@ body {
 
 .jumbotron {
     text-align: center;
+    background-color: darkred;
 }
 
 .choice {
