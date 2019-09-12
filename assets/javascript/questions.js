@@ -16,7 +16,7 @@ const quizQuestions = [{
 
     },
     {
-        question: 'Which of Angelas cats does dwight kill?',
+        question: 'Which of Angelas cats does Dwight kill?',
         choices: ["Bandito", "Stinky", "Sprinkles", "Captain"],
         rightAnswer: "Sprinkles"
 
@@ -56,7 +56,7 @@ const quizQuestions = [{
 
     },
     {
-        question: 'Which office employee did michael hit with his car?',
+        question: 'Which office employee did Michael hit with his car?',
         choices: ["Meredith", "Himself", "Jim", "IT guy"],
         rightAnswer: "Meredith"
 
